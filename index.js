@@ -68,7 +68,7 @@ function Respuesta(){
 	
 	//POSIBILIDAD DE APROBAR
 	if(posibilidadap == true && posibilidadrp == false){
-		ans.innerHTML += "<p>¡Felicidades! Esta materia está aprobada en el año (por más que repruebes el ultimo periodo)<br>";
+		ans.innerHTML += "<p>¡Felicidades! Esta materia está aprobada en el año (por más que repruebes el último periodo)<br>";
 	}
 	else if(posibilidadap == false){
 		ans.innerHTML += "<p>Lo siento, con tus notas actuales no es posible aprobar la materia en el año</p><br>";
