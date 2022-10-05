@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+html, body{
+	font-family: "Raleway";
+	background-color: #2F2F2F;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	color: white;
+	font-size: 180%;
+	font-weight: 700;
+	text-align: center;
+	margin: 25px 0 25px 0;
+}
+
+input{
+	position: relative;
+	height: 75px;
+	width: 90%;
+	left: 5%;
+	margin: 20px 0px 20px 0px;
+	background-color: #4F4F4F;
+	border-radius: 50px;
+	border: none;
+	box-shadow: 0px 10px 0px #222;
+	font-family: "Raleway";
+	text-align: center;
+	font-weight: 600;
+	font-size: 22px;
+	color: #ffffff;
+}
+
+::-webkit-input-placeholder{
+	font-family: "Raleway";
+	font-weight: 700;
+	color: #DADADA;
+}
+::-moz-placeholder{
+	font-family: "Raleway";
+	font-weight: 700;
+	color: #DADADA;
+}
+
+.btncalc{
+	position: relative;
+	height: 75px;
+	width: 90%;
+	left: 5%;
+	border-radius: 50px;
+	background-color: #fff;
+	box-shadow: 0px 10px 0px #222;
+	border:  none;
+	font-family: "Raleway";
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+.btncalc:hover{
+	background-color: #111;
+	color: white;
+	box-shadow: 0px 10px 0px #fff;
+}
+
+.Salida{
+	position: relative;
+	min-height: 100px;
+	width: 90%;
+	left: 5%;
+	border-radius: 50px;
+	background-color: #4f4f4f;
+	color: #fff;
+	margin: 40px 0px 20px 0px;
+	visibility: hidden;
+}
+
+.txtcontainer{
+	position: relative;
+	width: 90%;
+	left: 5%;
+	top: 25px;
+	font-family: "Raleway";
+}
+
+h2{
+	font-weight: 700;
+	text-align: center;
+	font-size: 30px;
+}
+
+h3{
+	font-weight: 600;
+	font-size: 22px;
+}
+
+p{
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.btnlimpiar{
+	position: relative;
+	left: 25%;
+	height: 60px;
+	width: 50%;
+	border-radius: 35px;
+	background-color: rgba(0, 255, 255, 0);
+	border: solid;
+	color: #fff;
+	border-color: #fff;
+	border-width: 5px;
+	font-family: "Raleway";
+	font-size: 35px;
+	font-weight: 500;
+	box-shadow: 0px 5px 0px #000;
+	text-shadow: 0px 5px 0px #000;
+	transition: background-color 0.3s, color 0.3s, text-shadow 0.3s;
+}
+.btnlimpiar:hover{
+	background-color: #fff;
+	color: #4f4f4f;
+	text-shadow: none;
+}
